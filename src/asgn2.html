@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  	<meta charset="utf-8" />
+  	<title>Assignment 2</title>
+</head>
+
+<body onload="main()">
+	<canvas id="webgl" width="600" height="600">
+		Please use a browser that supports "canvas"
+	</canvas>
+	<p>
+
+	<p>
+		<p id="numdot"> XXX </p>
+		<p>
+			This is Jeremey the piggy, Jeremey likes to poop when you press ctrl+click. 
+			<p>
+				He also likes to stick his tongue out (freak)!
+			</p>
+		</p>
+		Animate:
+		<button type="button" id="on">ON</button>
+		<button type="button" id="off">OFF</button>
+		Rotate: <input type="range" min="-180" max="180" value="0" class="slider" id="angleSlide">
+	
+	<p>
+		<b>Leg Slider:</b>
+		Front Left: <input type="range" min="-20" max="20" value="0" class="slider" id="front_Left">
+		Front Right: <input type="range" min="-20" max="20" value="0" class="slider" id="front_Right">
+		Back Left: <input type="range" min="-10" max="10" value="0" class="slider" id="back_Left">
+		Back Right: <input type="range" min="-10" max="10" value="0" class="slider" id="back_Right">
+	</p>
+	
+	<p>
+		<b>&#128069; FREAK MODIFIER &#128069;:</b>
+		Base: <input type="range" min="-5" max="5" value="0" class="slider" id="base">
+		Mid: <input type="range" min="-5" max="5" value="0" class="slider" id="mid">
+		End: <input type="range" min="-5" max="5" value="0" class="slider" id="end">
+	</p>
+
+
+	<script src="../lib/webgl-utils.js"></script>
+	<script src="../lib/webgl-debug.js"></script>
+	<script src="../lib/cuon-utils.js"></script>
+	<script src="../lib/cuon-matrix-cse160.js"></script>
+	<script src="Triangles.js"></script>
+	<script src="Cube.js"></script>
+	<script src="Cone.js"></script>
+	<script src="Circle.js"></script>
+	<script src="asgn2.js"></script>
+</body>
+
+</html>
